@@ -1356,12 +1356,12 @@ p {
   }
 
   .hand-image {
-    height: 430px;
+    height: 490px;
     overflow: hidden;
   }
 
   .hand-image img {
-        top: -7px;
+        top: -3px;
         left: unset;
         bottom: 0;
         right: -9px;
