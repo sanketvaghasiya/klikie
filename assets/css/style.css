@@ -601,6 +601,21 @@ p {
 
 }
 
+@media (max-width: 600px) { 
+
+  .navbar {
+    justify-content: center;
+  }
+
+  .navbar .dark-btn {
+    display: none;
+  }
+
+  .navbar-brand {
+    margin-right: 0rem;
+  }
+}
+
 /*===== HEADER HERO =====*/
 .header-hero {
   position: relative;
@@ -843,6 +858,85 @@ p {
   left: -5px;
 }
 
+.testimonial-area .main-heading .star {
+  top: -29px;
+  left: 1px;
+}
+
+@media (max-width: 600px) {
+  .main-heading {
+    font-size: 32px;
+    line-height: 15.4px;
+  }
+
+  .header-shape-1, .header-shape-2, .header-shape-3, .header-shape-4 {
+    display: none;
+  }
+
+  .header-hero-content {
+    padding-top: 50px;
+    height: 870px;
+  }
+
+  .header-shape-6 {
+    top: 5px;
+    right: -84%;
+  }
+
+  .header-shape-6 img {
+    width: 100px;
+  }
+
+  .header-hero-content .header-title {
+    font-size: 36px;
+    line-height: 50px;
+  }
+
+  .header-hero-content .header-title span {
+    font-size: 36px;
+    line-height: 50px;
+  }
+
+  .cross-text {
+    font-size: 30px;
+    bottom: -60px;
+    right: 30px;
+  }
+
+  .download-btns {
+    margin-top: 80px;
+  }
+
+  .header-shape-5 {
+    bottom: 135px;
+    left: 3%;
+  }
+
+  .header-shape-5 img {
+    width: 100px;
+  }
+
+  .header-hero .bttom-seprator {
+    padding: 10px 0px;
+    width: 104%;
+    left: -8px;
+  }
+
+  .bttom-seprator ul li {
+    font-size: 20.82px;
+    line-height: 37.74px;
+  }
+
+  .bttom-seprator ul li.fix {
+    margin: 0 20px;
+  }
+
+  .bttom-seprator ul li.fix svg {
+    width: 15px;
+  }
+
+}
+
 /*===========================
        ABOUT css 
 ===========================*/
@@ -928,6 +1022,33 @@ p {
 
 .about-content .main-btn {
   margin-top: 40px;
+}
+
+@media (max-width: 600px) {
+
+  .about-area {
+    padding-top: 20px;
+  }
+
+  .main-heading .star img {
+    width: 60px;
+  }
+  .about-area .row {
+    flex-direction: column;
+  }
+  .about-image {
+    padding-top: 0;
+  }
+  .about-content {
+    text-align: center;
+    padding: 0 15px;
+  }
+  .section-title .title {
+    line-height: 28px;
+  }
+  .odd {
+    flex-direction: column-reverse !important;
+  }
 }
 
 
@@ -1073,6 +1194,39 @@ p {
   margin-right: 5px;
 }
 
+@media (max-width: 600px) {
+  .testimonial-area .main-heading .star img {
+    width: 100px;
+    margin-left: 5px;
+    margin-top: -5px;
+  }
+
+  .testimonial-area {
+    padding-bottom: 50px;
+    padding-top: 40px;
+  }
+
+  .testi-content {
+    margin-top: 15px;
+  }
+
+  .testi-content .title {
+    font-size: 36px;
+    line-height: 65.11px;
+    margin-bottom: 15px;
+  }
+
+  .testi-content .dark-btn {
+    width: 100%;
+    text-align: center;
+  }
+
+  .testi-content p {
+    max-height: 190px;
+    overflow: scroll;
+  }
+}
+
 /*===========================
        Contact css 
 ===========================*/
@@ -1169,6 +1323,53 @@ p {
 }
 
 
+@media (max-width: 600px) {
+  .contact-content .title {
+    font-size: 42px;
+    font-weight: 500;
+    line-height: 46px;
+    text-align: center;
+  }
+  .contact-star-1, .contact-star-2, .contact-star-3 {
+    display: none;
+  }
+
+  .contact-content {
+    padding: 35px 30px;
+  }
+
+  .contact-content .download-btns {
+    width: 100%;
+  }
+
+  .download-btns ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contact-shape-1 {
+    top: -180px;
+    width: 75%;
+    height: 100%;
+    left: -26px;
+    background-size: contain;
+  }
+
+  .hand-image {
+    height: 430px;
+    overflow: hidden;
+  }
+
+  .hand-image img {
+        top: -7px;
+        left: unset;
+        bottom: 0;
+        right: -9px;
+        transform: unset;
+  }
+}
+
+
 /*===========================
      FOOTER css 
 ===========================*/
@@ -1181,8 +1382,6 @@ p {
 .footer-area .logo {
   max-width: 200px;
 }
-
-
 
 .footer-about .social {
   margin-bottom: 50px;
@@ -1224,5 +1423,38 @@ p {
   font-size: 24px;
   font-weight: 400;
   line-height: 28.8px;
+}
 
+
+@media (max-width: 600px) {
+
+  .footer-area {
+    padding-top: 35px;
+  }
+
+  .footer-about {
+    flex-direction: column;
+    display: flex;
+    justify-content: center !important;
+    text-align: center;
+  }
+
+  .footer-about .social {
+    margin-top: 30px;
+    margin-bottom: 35px;
+  }
+
+  .footer-links {
+    padding-top: 15px;
+    padding-bottom: 40px;
+  }
+
+  .footer-links .links {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px !important;
+  }
+  .copyright a {
+    font-size: 14px;
+  }
 }
