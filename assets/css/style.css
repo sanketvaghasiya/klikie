@@ -1472,3 +1472,41 @@ p {
     font-size: 14px;
   }
 }
+
+
+
+
+/* Styling the dots container */
+.slick-dots {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  list-style-type: none;
+  padding: 0;
+  margin: 20px 0;
+}
+
+/* Base style for each dot */
+.slick-dots li button {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: #ccc; /* Inactive dot color */
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-size: 0; /* Hides the number */
+}
+
+/* Style for the active dot with larger width */
+.slick-dots .slick-active button {
+  background-color: #333; /* Active dot color */
+  width: 20px; /* Wider width for active dot */
+  height: 8px; /* Same height as inactive dots */
+  border-radius: 10px; /* Oval shape for active dot */
+}
+
+/* Optional hover effect */
+.slick-dots li button:hover {
+  background-color: #666;
+}
