@@ -9,7 +9,7 @@ $(function () {
 
   //=====  WOW active
 
-  //   new WOW().init();
+    new WOW().init();
 
   $(".testimonial_slider").slick({
     prevArrow: $(".slick-prev"),
