@@ -1195,6 +1195,20 @@ p {
 }
 
 @media (max-width: 600px) {
+
+  .testimonial-area .slider-container {
+    margin-top: 50px;
+  }
+
+  .testimonial-area .main-heading {
+    padding: 0 50px;
+  }
+
+  .testimonial-area .main-heading .star {
+    top: -8px;
+    left: -2px;
+  }
+
   .testimonial-area .main-heading .star img {
     width: 100px;
     margin-left: 5px;
