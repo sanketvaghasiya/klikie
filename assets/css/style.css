@@ -1375,7 +1375,7 @@ p {
   }
 
   .hand-image img {
-        top: -3px;
+        top: 3px;
         left: unset;
         bottom: 0;
         right: -9px;
